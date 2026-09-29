@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  background-color: #ffffff;
+  color: #111111;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Sora", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  color: #1d6ff2;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 350px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.btn {
+  margin-top: 16px;
+  background-color: #1d6ff2;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.event-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 3rem;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+}
+
+.speakers {
+  display: flex;
+  gap: 16px;
+}
+
+.speakers span {
+  border: 2px solid #1d6ff2;
+  padding: 16px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.hero h2 {
+  color: #1d6ff2;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 50px;
+}
+.event-list {
+  display: flex;
+  gap: 120px;
+}
+
+.event {
+  padding: 1rem;
+  border: 2px solid #1d6ff2;
+  border-radius: 8px;
+}
+
+.event p {
+  margin: 5px 0;
+}
+
+.location-register {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+}
+
+.map-form {
+  display: flex;
+
+  gap: 50px;
+}
+
+.map-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px dotted #1d6ff2;
+}
+
+button {
+  background-color: #1d6ff2;
+  border-radius: 8px;
+  padding: 16px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #13e43d;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-weight: bold;
+}
