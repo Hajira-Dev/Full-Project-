@@ -19,6 +19,20 @@ h3 {
   margin: 0 auto;
   padding: 0 24px;
 }
+.event-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 3rem;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+}
 
 header {
   display: flex;
