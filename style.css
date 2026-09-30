@@ -60,31 +60,19 @@ img {
   cursor: pointer;
 }
 
-.event-details {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem 3rem;
-}
 
-.date {
-  display: flex;
-  flex-direction: column;
-}
-.location {
-  display: flex;
-  flex-direction: column;
-}
 
-.speakers {
+ .speakers {
   display: flex;
   gap: 16px;
 }
-
+ 
 .speakers span {
   border: 2px solid #1d6ff2;
   padding: 16px 24px;
   border-radius: 10px;
   font-weight: 600;
+  background-color: #e5e5e5;
 }
 
 .hero h2 {
@@ -95,12 +83,14 @@ img {
 .event-list {
   display: flex;
   gap: 120px;
+  
 }
 
 .event {
   padding: 1rem;
   border: 2px solid #1d6ff2;
   border-radius: 8px;
+  background-color: #e5e5e5;
 }
 
 .event p {
